@@ -1,1 +1,1 @@
-# full_stack_python
+# curso_ebac_frontend
