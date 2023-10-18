@@ -1,3 +1,0 @@
-# Desenvolvedor Full Stack Pyton 
-
-
