@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #0f344a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+header {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+}
+
+h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#nova-tarefa {
+    width: calc(100% - 20px);
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px 24px;
+    border: none;
+    background-color: #3b9dca;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #e64322;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 60%;
+}
+
+li {
+    background-color: #e64322;
+    color: #fff;
+    font-weight: bold;
+    padding: 18px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
